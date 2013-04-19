@@ -4,8 +4,6 @@
     require_once('connectDb.php');
 
 
-// if you're requesting to view a friend's profile...
-//$user_id = $_GET['user_id'];
 
 // if(isset($_GET['user_id'])) {
 //     echo $_GET['user_id'];
@@ -13,9 +11,11 @@
 
 // This helps us to set the appropriate menu item to active.
 // this suppresses undefined index warning BUT it's troublesome to fix the others. line 188, 195...
-//if(isset($_GET['view'])) {
+$view = null;
+if(isset($_GET['view'])) {
     $view = $_GET['view'];
-//}
+}
+
 $menu_state = array(0=>"", 1=>"groups", 2=> "friends", 3=>"nearby");
 
 for($i=0; $i<sizeof($menu_state); $i++) {
@@ -40,6 +40,7 @@ for($i=0; $i<sizeof($menu_state); $i++) {
     <script src="vendors/jquery.mobile/jquery-1.7.1.min.js"></script>
         <script src="vendors/jquery.mobile/jquery.mobile-1.1.1.min.js"></script>
          <link rel="stylesheet" href="resources/css/list-of-cards.css" />
+         <link rel="stylesheet" href="themes/AwesomeWeeliang.min.css" />
 
         <title>KnowLife Friendlist</title>
 
@@ -340,8 +341,14 @@ for($i=0; $i<sizeof($menu_state); $i++) {
                         //echo "Something's nearby! ugh!? LOADING MAPS";
                         include('includeMap.php');
                         //echo 'map is working! yay';
-                    } else if (isset($user_id)) {
-                        echo $user_id;
+                    } else if (isset($_GET['user_id'])) {
+                        $user_id = $_GET['user_id'];
+                        $result = mysql_query(
+                            "select * from users where user_id = " . $user_id 
+                            );
+                         while ($row = mysql_fetch_array($result)) {
+                            echo '<img src="'. $row{'user_picture'} .'"/>';
+                         }
                     } else {
                         echo "we don't know what you're looking for, please head back?";
                     }

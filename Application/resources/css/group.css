@@ -1,0 +1,123 @@
+/**
+ * Appcropolis Template: group 
+ * @copy Appcropolis LLC (c) 2011-2013. All rights reserved.
+ * @author PhireLair (support@appcropolis.com)
+ * @date 2013-04-17
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, 
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+ * BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN 
+ * ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN 
+ * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE 
+ * SOFTWARE.
+ *
+ * License and legal information: 
+ *
+ * http://appcropolis.com/license/
+ * http://appcropolis.com/legal/
+ * http://appcropolis.com/privacy/
+ */
+
+
+/* global */
+
+
+
+/* header */
+/* part header */
+#group div[data-role="header"] {
+	height: 42px;
+	}
+
+
+/* iOS Default */
+#group div[data-role="header"] a[data-role="button"][data-theme="reset"].ios .ui-btn-inner {
+    border: 1px solid rgba(0,0,0, 0.4);
+    border-bottom: none;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, .5);
+    background: -webkit-linear-gradient(top, #89A0BE 0%,#5877A2 50%,#486A9A 51%,#4A6C9B 100%);
+	}
+
+/* iOS Red */
+#group div[data-role="header"] a[data-role="button"][data-theme="reset"].ios.red .ui-btn-inner {
+    background: -webkit-linear-gradient(top, #DC7679 0%,#DC7679 49%,#CD2A27 50%,#C92A29 100%);
+	}
+
+/* iOS Blue */
+#group div[data-role="header"] a[data-role="button"][data-theme="reset"].ios.blue .ui-btn-inner {
+    background: -webkit-linear-gradient(top, #376FE0 0%,#376FE0 49%,#2361DE 50%,#2463DE 100%);
+	}
+
+/* iOS Black */
+#group div[data-role="header"] a[data-role="button"][data-theme="reset"].ios.black .ui-btn-inner {
+    background: -webkit-linear-gradient(top, #6A6A6A 0%,#313131 49%,black 50%,black 100%);
+	}
+
+
+/* subheader */
+/* (subheader) seed-subheader */
+#group div.subheader {
+	/* (subheader) */
+	}
+
+
+
+/* content */
+/* page: country-flags; part: content */
+#group div[data-role="content"] {
+	/* some rules */
+	}
+	
+	
+#group div[data-role="content"] .flexslider {
+	margin: 0 0 30px;
+	}
+
+
+/* footer */
+/* part: footer */
+#group div[data-role="footer"] {
+	/* some rules */
+	}
+	
+#group div[data-role="footer"] .nav-glyphish-example .ui-btn .ui-btn-inner { 
+	padding-top: 40px !important; 
+	}
+	
+#group div[data-role="footer"] .nav-glyphish-example .ui-btn .ui-icon { 
+	width: 30px!important; 
+	height: 30px!important; 
+	margin-left: -15px !important; 
+	box-shadow: none!important; 
+	-moz-box-shadow: none!important; 
+	-webkit-box-shadow: none!important; 
+	-webkit-border-radius: 0 !important; 
+	border-radius: 0 !important; 
+	}
+	
+#group div[data-role="footer"] #chat .ui-icon { 
+	background:  url(images/glyphish-icons/09-chat2.png) 50% 50% no-repeat; 
+	background-size: 24px 22px; 
+	}
+	
+#group div[data-role="footer"] #email .ui-icon { 
+	background:  url(images/glyphish-icons/18-envelope.png) 50% 50% no-repeat; 
+	background-size: 24px 16px;  
+	}
+	
+#group div[data-role="footer"] #beer .ui-icon { 
+	background:  url(images/glyphish-icons/88-beermug.png) 50% 50% no-repeat;  
+	background-size: 22px 27px; 
+	}
+	
+#group div[data-role="footer"] #coffee .ui-icon { 
+	background:  url(images/glyphish-icons/100-coffee.png) 50% 50% no-repeat;  
+	background-size: 20px 24px; 
+	}
+	
+#group div[data-role="footer"] #skull .ui-icon { 
+	background:  url(images/glyphish-icons/21-skull.png) 50% 50% no-repeat;  
+	background-size: 22px 24px; 
+	}
