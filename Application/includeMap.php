@@ -61,10 +61,19 @@
 
 </script>
 
+<?php
+  
+  function currPageName() {
+   return substr($_SERVER["SCRIPT_NAME"],strrpos($_SERVER["SCRIPT_NAME"],"/")+1);
+  }
 
-                    <div class="ui-grid-b">
+  
 
-                        
-                        <div id="map_canvas" style="width: 100%; height: 510px"></div> 
+?>
+            
+  <div class="ui-grid-b">
 
-                    </div>
+      
+      <div id="map_canvas" style="width: 100%; <?php if (currPageName() == 'test.php') { echo 'height:630px'; } else if (currPageName() == 'index.php') echo 'height:510px'; ?> "></div> 
+
+  </div>

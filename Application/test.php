@@ -32,15 +32,7 @@ for($i=0; $i<sizeof($menu_state); $i++) {
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <link rel="stylesheet" href="vendors/jquery.mobile/jquery.mobile-1.1.1.min.css"/>
-        <link rel="stylesheet" href="resources/css/basic-jqm-gallery-page.css" />
-    <script src="vendors/jquery.mobile/jquery-1.7.1.min.js"></script>
-        <script src="vendors/jquery.mobile/jquery.mobile-1.1.1.min.js"></script>
-         <link rel="stylesheet" href="resources/css/list-of-cards.css" />
-         <link rel="stylesheet" href="themes/AwesomeWeeliang.min.css" />
+        <?php include('header.php'); ?>
 
         <title>KnowLife Friendlist</title>
 
@@ -205,7 +197,7 @@ for($i=0; $i<sizeof($menu_state); $i++) {
                         $incrementMargin = 0;
                         $imgCounter = 1;                            
 
-                        while ($row = mysql_fetch_array($result)) {
+                        while ($row = mysql_fetch_array($result)) { 
                             if($imgCounter % 4 == 0)
                             {
                                 $incrementMargin = 4;
@@ -360,5 +352,8 @@ for($i=0; $i<sizeof($menu_state); $i++) {
                 
             </div><!-- /footer -->
         </div><!-- /page -->
+        <?php
+            include('footer.php');
+        ?>
     </body>
 </html>
