@@ -227,16 +227,16 @@ for($i=0; $i<sizeof($menu_state); $i++) {
                         <ul data-role="listview" data-inset="true" class="loc-card">
                             <li class="loc-image">
                                 <div>
-                                    <img src="resources/images/cheese.png"/>
+                                    <img src="resources/images/Geeks.png"/>
                                 </div>
                             </li>
                             <li class="loc-credits">
-                                <img src="resources/images/profile-01.png"/>
-                                <h3>Porta tristique et in et</h3>
-                                <p>by <a href="#">sandra</a>.</p>
-                            </li>   
+                                <img src="resources/images/img13.jpg"/>
+                                <h3>Geeks</h3>
+                                <p>by <a href="#">Weisheng</a>.</p>
+                            </li>
                             <li class="loc-comments">
-                                <p>2 comments, 4 likes</p>
+                                <p>20 members, 400 likes</p>
                             </li>
                         </ul>
                     </li>
@@ -247,16 +247,16 @@ for($i=0; $i<sizeof($menu_state); $i++) {
                         <ul data-role="listview"  data-inset="true" class="loc-card">
                             <li class="loc-image">
                                 <div>
-                                    <img src="resources/images/peppers.png"/>
+                                    <img src="resources/images/sports.jpg"/>
                                 </div>
                             </li>
                             <li class="loc-credits">
-                                <img src="resources/images/profile-02.png"/>
-                                <h3>Rhoncus elementum porta </h3>
-                                <p>by <a href="#">stella</a>.</p>
+                                <img src="resources/images/img12.jpg"/>
+                                <h3>Sports </h3>
+                                <p>by <a href="#">Nicholas</a>.</p>
                             </li>
                             <li class="loc-comments">
-                                <p>12 comments, 8 likes</p>
+                                <p>50 memberss, 995 likes</p>
                             </li>
                         </ul>
                     </li>
@@ -267,16 +267,16 @@ for($i=0; $i<sizeof($menu_state); $i++) {
                         <ul data-role="listview"  data-inset="true" class="loc-card">
                             <li class="loc-image">
                                 <div>
-                                    <img src="resources/images/tomatos.png"/>
+                                    <img src="resources/images/games.jpg"/>
                                 </div>
                             </li>
                             <li class="loc-credits">
-                                <img src="resources/images/profile-03.png"/>
-                                <h3>Nunc nunc velit arcu</h3>
-                                <p>by <a href="#">albert</a>.</p>
+                                <img src="resources/images/img10.jpg"/>
+                                <h3>Games</h3>
+                                <p>by <a href="#">JunYao</a>.</p>
                             </li>
                             <li class="loc-comments">
-                                <p>0 comment, 0 likes</p>
+                                <p>80 members, 1308 likes</p>
                             </li>
                         </ul>
                     </li>
@@ -287,20 +287,147 @@ for($i=0; $i<sizeof($menu_state); $i++) {
                         <ul data-role="listview"  data-inset="true" class="loc-card">
                             <li class="loc-image">
                                 <div>
-                                    <img src="resources/images/glasses.png"/>
+                                    <img src="resources/images/adventure.jpg"/>
                                 </div>
                             </li>
                             <li class="loc-credits">
-                                <img src="resources/images/profile-04.png"/>
-                                <h3>Porta tristique, et in et</h3>
-                                <p>by <a href="#">leonard</a>.</p>
+                                <img src="resources/images/img11.jpg"/>
+                                <h3>Adventure </h3>
+                                <p>by <a href="#">WaiCheng</a>.</p>
                             </li>
                             <li class="loc-comments">
-                                <p>1 comments, 6 likes</p>
+                                <p>30 members, 200 likes</p>
                             </li>
                         </ul>
                     </li>
-                </ul>
+
+                    <li data-theme="c">
+                        <ul data-role="listview"  data-inset="true" class="loc-card">
+                            <li class="loc-image">
+                                <div>
+                                    <img src="resources/images/food.jpg"/>
+                                </div>
+                            </li>
+                            <li class="loc-credits">
+                                <img src="resources/images/img14.jpg"/>
+                                <h3>Food</h3>
+                                <p>by <a href="#">Candy</a>.</p>
+                            </li>
+                            <li class="loc-comments">
+                                <p>30 members, 200 likes</p>
+                            </li>
+                        </ul>
+                    </li>
+
+
+                    <li data-theme="c">
+                        <ul data-role="listview"  data-inset="true" class="loc-card">
+                            <li class="loc-image">
+                                <div>
+                                    <img src="resources/images/science1.jpeg"/>
+                                </div>
+                            </li>
+                            <li class="loc-credits">
+                                <img src="resources/images/img9.jpg"/>
+                                <h3>Science</h3>
+                                <p>by <a href="#">Timothy</a>.</p>
+                            </li>
+                            <li class="loc-comments">
+                                <p>55 members, 240 likes</p>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li data-theme="c">
+                        <ul data-role="listview"  data-inset="true" class="loc-card">
+                            <li class="loc-image">
+                                <div>
+                                    <img src="resources/images/engineering1.jpg"/>
+                                </div>
+                            </li>
+                            <li class="loc-credits">
+                                <img src="resources/images/img8.jpg"/>
+                                <h3>Engineering</h3>
+                                <p>by <a href="#">YingSong</a>.</p>
+                            </li>
+                            <li class="loc-comments">
+                                <p>35 members, 140 likes</p>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li data-theme="c">
+                        <ul data-role="listview"  data-inset="true" class="loc-card">
+                            <li class="loc-image">
+                                <div>
+                                    <img src="resources/images/Business.jpg"/>
+                                </div>
+                            </li>
+                            <li class="loc-credits">
+                                <img src="resources/images/img4.jpg"/>
+                                <h3>Business</h3>
+                                <p>by <a href="#">Clement</a>.</p>
+                            </li>
+                            <li class="loc-comments">
+                                <p>89 members, 399 likes</p>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li data-theme="c">
+                        <ul data-role="listview"  data-inset="true" class="loc-card">
+                            <li class="loc-image">
+                                <div>
+                                    <img src="resources/images/CommunityService.jpg"/>
+                                </div>
+                            </li>
+                            <li class="loc-credits">
+                                <img src="resources/images/img16.jpg"/>
+                                <h3>Community Service</h3>
+                                <p>by <a href="#">ShiHui</a>.</p>
+                            </li>
+                            <li class="loc-comments">
+                                <p>39 members, 144 likes</p>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li data-theme="c">
+                        <ul data-role="listview"  data-inset="true" class="loc-card">
+                            <li class="loc-image">
+                                <div>
+                                    <img src="resources/images/education.jpg"/>
+                                </div>
+                            </li>
+                            <li class="loc-credits">
+                                <img src="resources/images/img7.jpg"/>
+                                <h3>Education</h3>
+                                <p>by <a href="#">Anthony</a>.</p>
+                            </li>
+                            <li class="loc-comments">
+                                <p>56 members, 432 likes</p>
+                            </li>
+                        </ul>
+                    </li>
+
+
+                    <li data-theme="c">
+                        <ul data-role="listview"  data-inset="true" class="loc-card">
+                            <li class="loc-image">
+                                <div>
+                                    <img src="resources/images/Life.jpg"/>
+                                </div>
+                            </li>
+                            <li class="loc-credits">
+                                <img src="resources/images/img16.jpg"/>
+                                <h3>Life</h3>
+                                <p>by <a href="#">Wendy</a>.</p>
+                            </li>
+                            <li class="loc-comments">
+                                <p>70 members, 632 likes</p>
+                            </li>
+                        </ul>
+                    </li>
 
 
                     <?php
